@@ -3,39 +3,150 @@
 <head>
 <meta charset="utf-8">
 <title>K&amp;D Media Partners</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
 <style>
+@font-face {
+	font-family: BebasNeue;
+	src: url(BebasNeue.ttf);
+}
+.mainbodydiv {
+	display: flex;
+	flex-direction: column;
+}
 .logo {
-	width: 50%;
+	width: 75%;
 	max-width: 250px;
 }
 .logo_container {
 	display: flex;
-	margin-top: 25%;
 	justify-content: center;
 	align-items: center;
+	padding-top: 100px;
 }
 .slogan {
-	font-family: BebasNeue, Arial, Helvetica, sans-serif;
+	font-family: BebasNeue;
 	color: white;
-	font-size: 15pt;
+	font-size: 20pt;
+	letter-spacing: 6px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-top: 30px;
+	margin-bottom: 25px;
 }
-</style>
+.whitebgdiv {
+	background-color: white;
+	align-self: center;
+	text-align: center;
+	border-radius: 20px;
+	width: 50%;
+	max-width: 600px;
+	margin: 10px;
+	padding: 10px;
+}
+.whitebgdiv:hover {
+	background-color: rgb(255, 239, 251);
+}
+.sociallink {
+	display: inline-block;
+	font-family: BebasNeue;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.sociallink:link {
+  text-decoration: none;
+  color: black;
+}
+.sociallink:visited {
+  text-decoration: none;
+}
+.sociallink:hover {
+	color: #92278F;
+}
+.sociallink:active {
+	color: rgb(190, 0, 133);
+}
+.paragraph {
+	display: inline-block;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+	padding: 10px;
+}
 
+.link {
+	display: inline-block;
+	font-family: BebasNeue;
+	font-size: 20px;
+}
+.link:link {
+  text-decoration: none;
+  color: black;
+}
+.link:visited {
+  text-decoration: none;
+}
+.link:hover {
+	color: #92278F;
+}
+.link:active {
+	color: rgb(190, 0, 133);
+}
+@media (max-width: 600px) {
+	.whitebgdiv {
+		margin: 5px;
+		width: 80%;
+}
+}
+
+@media (max-width: 800px) {
+	.whitebgdiv {
+		margin: 10px;
+		width: 65%;
+	}
+}
+
+</style>
 </head>
 
-<body bgcolor="#970091">
-	<div class="logo_container">
-	<img class="logo" src = "logo_large_invert.png" alt = "K&D Media Partners (PVT) Ltd. Logo"/>
-	</div>
 
-	<div class="slogan">
-		<div>GET IT DONE.</div>
+<body bgcolor="#92278F">
+	<div class="mainbodydiv">
+		<div class="logo_container">
+			<img class="logo" src = "logo_invert.svg" alt = "K&D Media Partners (PVT) Ltd. Logo"/>
+		</div>
+		<div class="slogan">
+			<div>GET IT DONE.</div>
+		</div>
+		<div class="whitebgdiv">
+			<div class="paragraph">
+				<b>We at K & D Media Partners pride ourselves with our passion towards bringing high quality productions to life. From digital adverts to High budget TV commercial, we cater to a vast variety of client needs. Our goal is to deliver high quality products to the client with minimal hassle from their part. Over the years we have delivered a multitude of projects to many prestigious clients and have become the go to production house for their needs and requirements.			</div>
+				</b>
 	</div>
-
+		<div class="whitebgdiv">
+			<a class="sociallink" href="https://www.youtube.com/channel/UC5i-bhaiV5w4UTmPT58qu6g">Youtube</a>
+			<a class="sociallink" href="https://www.facebook.com/KandDMediaPartners">Facebook</a>
+			<a class="sociallink" href="https://twitter.com/kanddmedia">Twitter</a>
+			<a class="sociallink" href="https://www.instagram.com/kanddmedia/">Instagram</a>
+			<a class="sociallink" href="https://www.tiktok.com/@kanddmedia">TikTok</a>
+			<a class="sociallink" href="https://blog.kanddmedia.com/">Blog</a>
+		</div>
+		<div class="whitebgdiv">
+			<a class="link" href="mailto:someone@example.com">customercare@kanddmedia.com</a>
+			<br>
+			<div class="link">+94714855000</div>
+			<br>
+			<a class="link" href="https://wa.me/9471485500">WhatsApp Chat</a>
+		</div>
+		<div class="whitebgdiv" style="background-color: #414042; color: white;">
+			<div class="paragraph">
+				2022 © K & D Media Partners (Private) Limited.
+			</div>
+		</div>
+	</div>
 </body>
 </html>
