@@ -35,8 +35,12 @@ body {
 	flex-direction: column;
 }
 .logo {
-	width: 75%;
-	max-width: 250px;
+	width: 60%;
+}
+@media (min-width: 800px){
+	.logo {
+		max-width: 300px;
+	}
 }
 .logo_container {
 	display: flex;
@@ -60,22 +64,26 @@ body {
 	align-self: center;
 	text-align: center;
 	border-radius: 20px;
-	width: 50%;
-	max-width: 600px;
+	width: 100%;
 	margin: 10px;
 	padding: 10px;
 }
 .whitebgdiv:hover {
 	background-color: rgb(255, 239, 251);
 }
+@media (min-width:800px) {
+	.whitebgdiv {
+	max-width: 600px;
+}
+}
 .sociallink {
 	display: inline-block;
 	font-family: BebasNeue;
 	font-size: 20px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .sociallink:link {
   text-decoration: none;
@@ -147,12 +155,13 @@ body {
 				</b>
 	</div>
 		<div class="whitebgdiv">
-			<a class="sociallink" href="https://www.youtube.com/channel/UC5i-bhaiV5w4UTmPT58qu6g">Youtube</a>
-			<a class="sociallink" href="https://www.facebook.com/KandDMediaPartners">Facebook</a>
-			<a class="sociallink" href="https://twitter.com/kanddmedia">Twitter</a>
-			<a class="sociallink" href="https://www.instagram.com/kanddmedia/">Instagram</a>
-			<a class="sociallink" href="https://www.tiktok.com/@kanddmedia">TikTok</a>
-			<a class="sociallink" href="https://blog.kanddmedia.com/">Blog</a>
+			
+			<a class="sociallink" href="https://www.youtube.com/channel/UC5i-bhaiV5w4UTmPT58qu6g"><img src = "youtube.svg" alt = "Youtube Channel"/></a>
+			<a class="sociallink" href="https://www.facebook.com/KandDMediaPartners"><img src = "facebook.svg" alt = "Facebook Page"/></a>
+			<a class="sociallink" href="https://twitter.com/kanddmedia"><img src = "twitter.svg" alt = "Twitter Profile"/></a>
+			<a class="sociallink" href="https://www.instagram.com/kanddmedia/"><img src = "instagram.svg" alt = "Instagram Page"/></a>
+			<a class="sociallink" href="https://www.tiktok.com/@kanddmedia"><img src = "tiktok.svg" alt = "TikTok Channel"/></a>
+			<a class="sociallink" href="https://blog.kanddmedia.com/"><img src = "blog.svg" alt = "Blog"/></a>
 		</div>
 		<div class="whitebgdiv">
 			<a class="link" href="mailto:someone@example.com">customercare@kanddmedia.com</a>
